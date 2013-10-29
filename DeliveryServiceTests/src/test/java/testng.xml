@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="DeliveryService" verbose="10" parallel="false" thread-count="1">
+
+    <test name="DeliveryServiceTests" preserve-order="true">
+        <classes>
+            <class name="com.oggi.delivery.Tests.CrossdomainXMLTests" />
+            <class name="com.oggi.delivery.Tests.EAssetsMethodTests" />
+        </classes>
+    </test>
+
+    <!--<test name="eAssetsMethodCheck" preserve-order="true">
+        <classes>
+            <class name="com.oggi.delivery.Tests.EAssetsMethodTests" >
+                <methods>
+                    <include name="getAdListGeneralTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="crossdomainXmlCheck" preserve-order="true">
+        <classes>
+            <class name="com.oggi.delivery.Tests.CrossdomainXMLTests" >
+                <methods>
+                    <include name="getCrossdomainXMLTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>        -->
+
+</suite>
